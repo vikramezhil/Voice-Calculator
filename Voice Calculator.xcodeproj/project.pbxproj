@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AC5004371D4CDF1B00767FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5004361D4CDF1B00767FEE /* AppDelegate.swift */; };
-		AC5004391D4CDF1B00767FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5004381D4CDF1B00767FEE /* ViewController.swift */; };
-		AC50043C1D4CDF1B00767FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC50043A1D4CDF1B00767FEE /* Main.storyboard */; };
 		AC50043E1D4CDF1B00767FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC50043D1D4CDF1B00767FEE /* Assets.xcassets */; };
 		AC5004411D4CDF1B00767FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC50043F1D4CDF1B00767FEE /* LaunchScreen.storyboard */; };
 		AC50044C1D4CDF1B00767FEE /* Voice_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC50044B1D4CDF1B00767FEE /* Voice_CalculatorTests.swift */; };
 		AC5004571D4CDF1B00767FEE /* Voice_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5004561D4CDF1B00767FEE /* Voice_CalculatorUITests.swift */; };
+		AC5004731D4CE3C100767FEE /* CalculatorInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC50046F1D4CE3C100767FEE /* CalculatorInputController.swift */; };
+		AC5004741D4CE3C100767FEE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5004701D4CE3C100767FEE /* Model.swift */; };
+		AC5004751D4CE3C100767FEE /* CalculatorOutputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5004711D4CE3C100767FEE /* CalculatorOutputController.swift */; };
+		AC5004761D4CE3C100767FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5004721D4CE3C100767FEE /* ViewController.swift */; };
+		AC5004781D4CE3DF00767FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5004771D4CE3DF00767FEE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,7 @@
 
 /* Begin PBXFileReference section */
 		AC5004331D4CDF1B00767FEE /* Voice Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC5004361D4CDF1B00767FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC5004381D4CDF1B00767FEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC50043B1D4CDF1B00767FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC5004361D4CDF1B00767FEE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC50043D1D4CDF1B00767FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5004401D4CDF1B00767FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC5004421D4CDF1B00767FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,11 @@
 		AC5004521D4CDF1B00767FEE /* Voice CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5004561D4CDF1B00767FEE /* Voice_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_CalculatorUITests.swift; sourceTree = "<group>"; };
 		AC5004581D4CDF1B00767FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC50046F1D4CE3C100767FEE /* CalculatorInputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorInputController.swift; sourceTree = "<group>"; };
+		AC5004701D4CE3C100767FEE /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AC5004711D4CE3C100767FEE /* CalculatorOutputController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorOutputController.swift; sourceTree = "<group>"; };
+		AC5004721D4CE3C100767FEE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC5004771D4CE3DF00767FEE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +103,13 @@
 		AC5004351D4CDF1B00767FEE /* Voice Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				AC5004361D4CDF1B00767FEE /* AppDelegate.swift */,
-				AC5004381D4CDF1B00767FEE /* ViewController.swift */,
-				AC50043A1D4CDF1B00767FEE /* Main.storyboard */,
 				AC50043D1D4CDF1B00767FEE /* Assets.xcassets */,
+				AC5004721D4CE3C100767FEE /* ViewController.swift */,
+				AC5004711D4CE3C100767FEE /* CalculatorOutputController.swift */,
+				AC50046F1D4CE3C100767FEE /* CalculatorInputController.swift */,
+				AC5004701D4CE3C100767FEE /* Model.swift */,
+				AC5004361D4CDF1B00767FEE /* AppDelegate.swift */,
+				AC5004771D4CE3DF00767FEE /* Main.storyboard */,
 				AC50043F1D4CDF1B00767FEE /* LaunchScreen.storyboard */,
 				AC5004421D4CDF1B00767FEE /* Info.plist */,
 			);
@@ -232,9 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5004781D4CE3DF00767FEE /* Main.storyboard in Resources */,
 				AC5004411D4CDF1B00767FEE /* LaunchScreen.storyboard in Resources */,
 				AC50043E1D4CDF1B00767FEE /* Assets.xcassets in Resources */,
-				AC50043C1D4CDF1B00767FEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5004391D4CDF1B00767FEE /* ViewController.swift in Sources */,
+				AC5004761D4CE3C100767FEE /* ViewController.swift in Sources */,
+				AC5004751D4CE3C100767FEE /* CalculatorOutputController.swift in Sources */,
+				AC5004741D4CE3C100767FEE /* Model.swift in Sources */,
+				AC5004731D4CE3C100767FEE /* CalculatorInputController.swift in Sources */,
 				AC5004371D4CDF1B00767FEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC50043A1D4CDF1B00767FEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC50043B1D4CDF1B00767FEE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC50043F1D4CDF1B00767FEE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -403,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Voice Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codedragon.Voice-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Voice Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codedragon.Voice-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
